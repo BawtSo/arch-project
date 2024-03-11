@@ -11,3 +11,10 @@
 .main-header{
     text-decoration:underline;
 }
+.nav-page{
+    border:solid rgb(236,183,34) .5px;
+    background-color:white;
+    height:200px;
+    width:200px;
+
+}
