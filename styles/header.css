@@ -95,9 +95,11 @@ footer{
 .footer-links{
     color:white;
 }
+a{
+    transition:transform .4s ease-in-out;
+}
 a:hover{
-    transition:.1s ease-out;
-    margin:3px;
+    transform:scale(1.5);
     font-size:15px;
 }
 .target-pic{
