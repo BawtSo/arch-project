@@ -1,0 +1,21 @@
+.lesson-types{
+    padding-bottom:5%;
+    width:45%;
+    height:35em;
+    float:left;
+    border-right:solid;
+    padding-right:1%;
+    background-color:rgb(3, 163, 223);
+
+    
+}
+.private-lessons{
+    float:right;
+    width:45%;
+    border-left:solid;
+    padding-left:1%;
+    background-color:rgb(3, 163, 223);
+
+}
+
+

@@ -1,22 +1,38 @@
 body{
-    width:auto;
-    margin:5% 10% 0% 10%;
+    max-width:1440px;
+    margin:5% auto 0% auto;
+    font-family:arial;
+    font-size:17px;
+    background-color:rgb(68,68,68);
 }
-
+h1{
+    font-family:arial;
+    font-size:40px;
+    font-weight:bold;
+}
+h3{
+    font-size:17px;
+    font-weight:bold;
+}
 .banner{
     text-align:center;
     width:auto;
     height:200px;
-    background:rgb(202, 88, 88);
+    background-color:rgb(3, 163, 223);
     color:white;
     padding-top:5%;
     padding-right:12%;
     margin:0% 0% 0 0%;
     font-size:44px;
+    font-variant:small-caps;
+    text-shadow:2px 2px 2px black;
+    background-image:url(../images/archeryAcademy-logo-white.png);
+    background-repeat:no-repeat;
+    background-position:center;
     
 }
 .nav-bar{
-    background-color:lightgrey;
+    background-color:rgb(236,183,34);
     text-decoration:none;
     color:black;
     font-family:sans-serif;
@@ -32,15 +48,11 @@ a{
     float:left;
     position:static;
     font-size:14px;
-    color:black;
+    color:white;
     padding-left:2%;
-    font-family:sans-serif;
+    font-family:arial;
 }
-main{
-    margin-top:10%;
-    text-align:center;
-    border:solid;
-}
+
 .container{
     margin-top:5%;
     display:flex;
@@ -55,10 +67,21 @@ main{
 
 }
 footer{
-    padding-top:5%;
+    padding-top:20%;
+    padding-bottom:2%;
+    background-image:url(../images/footerImage.jpg);
+    background-size:cover;
+    color:white;
+}
+.footer-links{
+    color:white;
 }
 a:hover{
-    transition:.1s ease-in;
-    margin:1px;
+    transition:.1s ease-out;
+    margin:3px;
     font-size:15px;
+}
+.target-pic{
+    width:300px;
+    height:280px;
 }
