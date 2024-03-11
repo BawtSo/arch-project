@@ -1,0 +1,57 @@
+body{
+    width:1440px;
+    margin:5% 10% 0% 10%;
+}
+
+.banner{
+    text-align:center;
+    width:auto;
+    height:200px;
+    background:rgb(202, 88, 88);
+    color:white;
+    padding-top:5%;
+    margin:0% 0% 0 0%;
+    
+}
+.nav-bar{
+    background-color:lightgrey;
+    text-decoration:none;
+    color:black;
+    font-family:sans-serif;
+}
+a{
+    color:black;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.contact-info{
+    float:left;
+    position:static;
+    margin-left:5%;
+}
+main{
+    margin-top:10%;
+    text-align:center;
+    border:solid;
+}
+.container{
+    margin-top:5%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.box{
+    width:300px;
+    height:300px;
+    border:groove black;
+    transition-property:.5s;
+
+}
+footer{
+    padding-top:5%;
+}
+a:hover{
+    transition:.1s ease-in;
+    margin:1px;
+}
