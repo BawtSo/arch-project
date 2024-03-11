@@ -1,5 +1,8 @@
 .archery-info{
     width:700px;
     height:auto;
-    float:left
+    float:left;    
+    background-color:rgb(3, 163, 223);
+    border:solid rgb(236,183,34) .5px;
+
 }
