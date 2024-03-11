@@ -2,7 +2,12 @@
     width:700px;
     height:auto;
     float:left;    
-    background-color:rgb(3, 163, 223);
+    background-color:rgb(27, 68, 127);
     border:solid rgb(236,183,34) .5px;
-
+    color:white;
+    padding:0 1% 0 1%;
+    text-align:center;
+}
+.main-header{
+    text-decoration:underline;
 }
