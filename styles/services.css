@@ -1,31 +1,19 @@
 .lesson-types{
-    display:grid;
+    display:flex;
+    flex-direction:column;
     padding-bottom:5%;
     padding-left:2%;
-    height:fit-content;
     width:45%;
     float:left;
     padding-right:1%;
     background-color:rgb(3, 163, 223);
     justify-content:space-evenly;
     grid-gap:5em;
-    grid-auto-rows:max-content;
 }
-.option-1{
-    grid-row-start:1;
-    grid-row-end:3;
-    grid-column-start:1;
-    grid-column-end:1;
-}
-.option-2{
-    grid-area:2/1/2/1;
-}
-.option-3{
-    grid-column:1/1;
-    grid-row:3/3;
-}
+
 .private-lessons{
-    display:grid;
+    display:flex;
+    flex-direction:column;
     float:right;
     width:45%;
     border-left:solid;
