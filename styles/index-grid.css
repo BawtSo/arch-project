@@ -7,6 +7,10 @@ body{
     border:solid black 2px;
 
 }
+video{
+    display:block;
+    margin:0 auto;
+}
 /*.banner{
     background-image:url(../images/archeryAcademy-logo-white.png);
     background-position:5%;
