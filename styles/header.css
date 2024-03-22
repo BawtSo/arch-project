@@ -58,7 +58,7 @@ a{
 .container{
     float:right;
     margin-top:5%;
-    width:600px;
+    max-width:600px;
     height:900px;
     display:flex;
     flex-wrap:wrap;
@@ -81,7 +81,6 @@ main{
 footer{
     width:1440px;
     height:150px;
-    margin-top:80%;
     padding-top:10%;
     padding-bottom:2%;
     background-image:url(../images/footerImage.jpg);
@@ -89,7 +88,7 @@ footer{
     color:white;
     text-align:center;
     border:solid rgb(236,183,34) .5px;
-
+    margin-top:80%;
 
 }
 .footer-links{
@@ -106,4 +105,28 @@ a:hover{
 .target-pic{
     width:200px;
     height:180px;
+}
+.archery-info{
+    width:700px;
+    height:auto;
+    float:left;    
+    background-color:rgb(27, 68, 127);
+    border:solid rgb(236,183,34) .5px;
+    color:white;
+    padding:0 1% 0 1%;
+    text-align:center;
+}
+.main-header{
+    text-decoration:underline;
+}
+.nav-page{
+    border:solid rgb(236,183,34) .5px;
+    background-color:white;
+    height:200px;
+    width:200px;
+    transition:1s ease-in-out;
+
+}
+.nav-page:hover{
+    background-color:blue;
 }
