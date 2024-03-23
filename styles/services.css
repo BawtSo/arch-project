@@ -3,12 +3,14 @@
     flex-direction:column;
     padding-bottom:5%;
     padding-left:2%;
+    margin-bottom:5%;
     width:45%;
     float:left;
     padding-right:1%;
     background-color:rgb(3, 163, 223);
     justify-content:space-evenly;
     grid-gap:5em;
+    border:solid;
 }
 
 .private-lessons{
@@ -16,9 +18,10 @@
     flex-direction:column;
     float:right;
     width:45%;
-    border-left:solid;
+    border:solid;
     padding-left:1%;
     background-color:rgb(3, 163, 223);
+    padding-bottom:5%;
 }
 
 
