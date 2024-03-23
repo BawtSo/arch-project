@@ -11,6 +11,7 @@
     justify-content:space-evenly;
     grid-gap:5em;
     border:solid;
+    margin-left:2%;
 }
 
 .private-lessons{
@@ -22,6 +23,10 @@
     padding-left:1%;
     background-color:rgb(3, 163, 223);
     padding-bottom:5%;
+    margin-right:2%;
 }
-
+video{
+    display:block;
+    margin:0 auto;
+}
 
