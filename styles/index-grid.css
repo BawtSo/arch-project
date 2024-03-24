@@ -47,6 +47,9 @@ video{
     text-shadow:2px 2px 2px black;
 }
 .nav-text{
+    display:inline-block;
+    position:relative;
+    text-decoration:none;
     margin-left:3%;
     font-size:20px;
 }
@@ -167,11 +170,26 @@ a:hover{
     font-size:14px;
 }
 .nav-text:hover{
-    text-decoration:underline white;
-    text-underline-offset: 5px;
     color:rgb(236,183,34);
     text-shadow:2px 2px 2px black;
     font-size: 19.5px;
+}
+.nav-text:after{
+    content:'';
+    position:absolute;
+    width:100%;
+    transform:scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    transform-origin:bottom;
+    transition: transform .25s ease-out;
+    background-color: white;
+    
+}
+.nav-text:hover:after{
+    transform:scaleX(1);
+    transform-origin:bottom;
 }
 .boxes{
     transition:.4s ease-out;
