@@ -36,15 +36,19 @@ video{
     padding-top:1%;
     border:solid 1px rgb(236,183,34);
     text-align:center;
-    color:white;
+    color:#171717;
     position:fixed;
     top:0px;
     background-image:url(../images/archeryAcademy-logo-white.png);
     background-repeat:no-repeat;
-    background-color:rgb(3, 163, 223);
+    background-color:#03a3df;
     background-position:4%;
     z-index:1;
     text-shadow:2px 2px 2px black;
+}
+.nav-bar a{
+    padding: 1rem;
+    margin: 2rem;
 }
 .nav-text{
     display:inline-block;
@@ -64,10 +68,10 @@ main{
 }
 
 .box-main{
-    width:800px;
+    width:50em;
     position:static;
     border:groove 1px rgb(236,183,34);
-    background-color:lightgrey;
+    background-color:#d3d3d3;
     font-weight:bold;
 
 }
@@ -84,6 +88,7 @@ main{
     justify-content:space-evenly;
     grid-template-columns:max-content;
     position:static;
+    overflow:hidden;
     margin-right:10%;
 }
 
@@ -144,6 +149,9 @@ main{
     flex-direction:row;
     margin-bottom:5%;
 }
+.return-top{
+    color:black;
+}
 
 /* Footer image */
 footer{
@@ -190,6 +198,7 @@ a:hover{
 .nav-text:hover:after{
     transform:scaleX(1);
     transform-origin:bottom;
+    margin-top:2%;
 }
 .boxes{
     transition:.4s ease-out;
